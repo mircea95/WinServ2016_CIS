@@ -1,0 +1,15 @@
+CIS_WIN2016v1.0.ps1
+	- first version.
+
+CIS_WIN2016_v1.1.ps1
+	- o fost adaugat sa se extraga si utilizatorii de domen in caz ca scriptil ruleaza pe DC;
+	- extragerea aplicatiilor instalate se face in baza registrilor, a fost adaugata o noua functie.
+	
+CIS_WIN2016_v1.2.ps1	
+	- Sa corectat dublarea denumirei controlului 19.7.4.2, care era la fel ca la 19.7.4.1 
+	- Sa corectat greseala la controlul 18.8.52.1.1 si 18.8.52.1.2, erau numite 18.8.50.1.1 si respectiv 18.8.50.1.2
+	- Sa completat denumirea controlului 2.3.6.2, nu era scris complet
+
+CIS_WIN2016_v1.3.ps1	
+	- A fost corectat extragerea datelor despre politica de parole, daca serverul este inclus in DOMAIN extrage politica din domain.
+	- La informatie generala a fost inclusa sa se extrage si politica de parole. 
